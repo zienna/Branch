@@ -50,12 +50,12 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void TestAgain(){
+    public void testothtond(){
         int i = 3+3;
 
-        String test = "Test";
+        String test = "False";
 
-        boolean True = false;
+        boolean True = true;
 
     }
 }
