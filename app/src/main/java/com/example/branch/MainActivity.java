@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void NewMethod(){
+    public void TestMerge(){
         int i = 3+3;
 
         String test = "Test";
