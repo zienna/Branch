@@ -52,14 +52,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeWork(){
 
-        int i = 1;
-        int ii = 9000;
+        int i = 203;
+        int ii = 100;
 
         String iString = Integer.toString(i);
         String iiString;
 
         if(i == 100){
-            iiString = Integer.toString(ii);
+            iiString = Integer.toString(ii + 3);
         }
     }
 }
