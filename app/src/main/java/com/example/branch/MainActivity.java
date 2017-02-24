@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeWork(){
 
-        int i = 15;
-        int ii = 50;
+        int i = 60;
+        int ii = 900;
 
         String iString = Integer.toString(i);
         String iiString;
