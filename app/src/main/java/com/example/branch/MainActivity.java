@@ -52,13 +52,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeWork(){
 
-        int i = 1+2+3+4+5;
-        int ii = 200;
+        int i = 1;
+        int ii = 500;
 
         String iString = Integer.toString(i);
         String iiString;
 
-        if(i > 100){
+        if(i < 100){
             iiString = Integer.toString(ii);
         }
     }
