@@ -50,12 +50,16 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void testothtond(){
-        int i = 3+3;
+    public void doSomeWork(){
 
-        String test = "False";
+        int i = 1+2+3+4+5;
+        int ii = 200;
 
-        boolean True = true;
+        String iString = Integer.toString(i);
+        String iiString;
 
+        if(i > 100){
+            iiString = Integer.toString(ii);
+        }
     }
 }
